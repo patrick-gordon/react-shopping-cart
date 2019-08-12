@@ -2,6 +2,7 @@ import React from 'react';
 
 // Components
 import Item from './ShoppingCartItem';
+import { CartContext } from '../Contexts/CartContext';
 
 const ShoppingCart = props => {
 	const getCartTotal = () => {
